@@ -1,0 +1,283 @@
+.head{
+  color: aliceblue;
+  background-color: rgb(38, 37, 37);
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  margin: -1em ;
+  padding: 0.5em;
+  position: static;
+  z-index: 1;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+}
+.head a{
+  position: relative;
+  left: 8em;
+  top: -1.8em;
+}
+.head h1{
+  font-size: 100%;
+  position: relative;
+  left: 0.5em;
+}
+.bs{
+  position: relative;
+  left: 50px;
+  text-align: center;
+}
+
+.main-con {
+  text-align: left;
+  width: 8%;
+  padding: 0.8em;
+  position: relative;
+  right: 1.4em;
+}
+body{
+  background-color:rgb(1, 1, 1);
+}
+.main-con2{
+  color: white;
+  background-color: rgb(48, 48, 49);
+  border-radius: 20px;
+  position: relative;
+  top: 30px;
+  padding: 5px 10px;
+}
+.image-con{
+  display: flex;
+  padding: 10px;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+.main-con2 img{
+  position: relative;
+  left: 1em;
+  border-radius: 100%;
+  text-align: center;
+  border: 0.1em solid rgb(251, 251, 252);
+  height: 100px;
+  width: 100px;
+}
+.main-con2 .image-con h1{
+  position: relative;
+  left: 1em;
+}
+.main-con2 img:hover{
+  border: 0.1em solid rgb(226, 28, 28);
+  cursor: pointer;
+}
+.main-con2 .write-up{
+  text-align: center;
+  padding: 5px;
+}
+.flex{
+  text-align: right;
+  padding: 0.5em;
+  color: white;
+  background-color: rgb(34, 32, 32);
+}
+.flex a{
+  color: white;
+  margin: 5px;
+}
+.flex a:hover{
+  text-decoration: none;
+}
+.flex a i:hover{
+  transform:scale(2,2) ;
+  color: #21f321;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+.sub-con{
+  background-color: rgb(88, 85, 85);
+  /* text-align: center; */
+  border-radius: 20px;
+  width: 97%;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  margin: 1px auto;
+}
+.sub-con-b{
+  background-color: rgb(88, 85, 85);
+  text-align: center;
+  margin: 1px auto;
+  border-radius: 20px;
+  width: 97%;
+  padding: 5px;
+  position: relative;
+  background-image: url(image/128139.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fa-home {
+  color: rgb(34, 245, 34);
+  border-bottom: solid 2px rgb(34, 245, 34);
+  padding-bottom: 0.5em;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(132, 132, 132);
+  -webkit-transition: .4s;
+  transition: .4s;
+  }
+  
+  .slider:before {
+    border-radius: 50%;
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 8px;
+  bottom: 2px;
+  background-color: rgb(238, 233, 233);
+  -webkit-transition: .4s;
+  transition: .4s;
+  }
+  
+  input:checked + .slider {
+  background-color: #21f321;
+  }
+  
+  input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+  border-radius: 34px;
+  }
+  
+  .slider.round:before­ {
+  border-radius: 50%;
+  }
+  .acc{
+    background-color: rgb(40, 43, 43);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+  }
+.acc-log{
+  display: flex;
+  padding: 2px;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+.acc-log-a{
+  border: solid white 1px;
+  border-radius: 20px;
+  padding: 2px;
+  background-image: url(image/bad\ monalisa.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 30%;
+}
+.acc-log-b{
+  border: solid white 1px;
+  border-radius: 20px;
+  padding: 2px;
+  background-image: url(image/bad\ monalisa.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #34181a44;
+  width: 30%;
+}
+.acc-log-c{
+  border: solid white 1px;
+  background-image: url(image/bad\ monalisa.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 2px;
+  width: 30%;
+}
+.acc-log-a h3, .acc-log-b h3, .acc-log-c h3{
+  text-align: left;
+  padding-left: 7px;
+  font-size: 15px;
+}
+.acc-log-a h2, .acc-log-b h2, .acc-log-c h2{
+  font-size: 20px;
+  color: #21f321;
+}
+.fa-download{
+  color: white;
+  animation-name: move;
+  animation-duration:15s;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes move{
+  1% {
+    transform: translatey(0px);
+    color: purple;
+ }
+ 10% {
+    transform: translatey(-20px);
+    color: red;
+ }
+ 25% {
+  transform: translatey(-40px);
+  color:orange;
+}
+ 50% {
+   transform: translatey(0px);
+   color:yellow;
+ }
+ 75% {
+   transform: translatey(-40px);
+   color: rgb(28, 204, 28);
+ }
+ 100% {
+   transform: translatey(0px);
+   color: blue;
+ }
+}
+.about{
+  padding: 1vh;
+  display: flex;
+  justify-content: flex-start;
+}
+.about1{
+  flex-basis: 100%;
+  padding:0 2em;
+  @media (min-width: 40rem;) {
+   flex: basis 50%;
+  }
+}
+
+
+
