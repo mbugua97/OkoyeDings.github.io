@@ -1,0 +1,46 @@
+html{
+    background-color: gray;
+}
+.wellcome{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    margin: auto;
+    position: relative;
+}
+img.avatar {
+    width: 10em;
+    border-radius: 50%;
+}
+button{
+    background-color: rgb(33, 33, 201);
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+     width: 10em; 
+}
+button a{
+    color: rgb(0, 0, 0);
+}
+.sign-up a:hover{
+  color: red;
+}
+button:hover{
+    background-color:rgb(42, 42, 252);
+    color: white;
+    transform:scale(1.08,1.05) ;
+}
+.about{
+    text-align: center;
+}
+.logfrom{
+    border-radius: 20px;
+    height: 1.7em;
+    text-align: center;
+}
