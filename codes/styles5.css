@@ -14,29 +14,32 @@
 }
 
 .messages1{
+    border: solid 2px white;
     display: flex;
     align-items: center;
     margin: 5px auto;
     border-radius: 20px;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(61, 61, 61);
     width: 93%;
-    padding: 5px;
+    padding: 7px;
 }
 .messages1:hover{
     transform: scale(1.05,1.05);
     cursor: pointer;
     font-size: 20px;
+    background-color: black;
+    color: white;
 }
 .messages1 b{
     margin-left: 10px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 10px;
     margin: 5px auto;
     width: 100%;
     padding: 22px 0;
 }
 .messages1 b:hover{
-    font-size: large;
+    color: rgb(255, 255, 255);
 }
 .fa-face-angry{
     color: red;

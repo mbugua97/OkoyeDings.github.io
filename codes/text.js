@@ -169,7 +169,37 @@ console.log(mystring.length);
 console.log(mystring.toUpperCase());
 
 //CREATING A NEW OBJECT
-var myArray2 =new Array2();
+var myArray2 =new Array();
 myArray2[0]=8;
 myArray2[1]=6;
 myArray2[2]="hello";
+
+var myCar = new Object();
+myCar.maxSpeed =40;
+myCar.driver="dings";
+console.log(myCar.driver);
+myCar.drive=function(){ console.log("now driving");};
+console.log(myCar.drive());
+
+var myCar2 ={
+
+    maxSpeed:30, 
+    driver:"okoye", 
+    drive:function(speed , time){
+
+        console.log("The distance traveled is " + speed * time);
+
+    },
+    test:function(){
+        console.log(this);
+    }
+};
+myCar2.test();
+console.log(myCar2.maxSpeed);
+console.log(myCar2.drive(4 ,4));
+
+
+//THIS KEYWORLD
+//console.log(this); 
+//u can also do the (test function)
+
