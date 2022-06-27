@@ -5,7 +5,7 @@
     width: 99%;
     margin: 10px auto;
     border-radius: 20px;
-    background-color: rgb(61, 61, 61);
+    background-color: rgba(61, 61, 61, 0.463);
 }
 .fa-facebook-messenger{
     color: rgb(34, 245, 34);
@@ -18,9 +18,9 @@
     display: flex;
     align-items: center;
     margin: 5px auto;
-    color: black;
+    color: black ;
     border-radius: 20px;
-    background-color: rgb(61, 61, 61);
+    background-color: rgba(61, 61, 61, 0.47);
     width: 93%;
     padding: 7px;
 }

@@ -44,3 +44,13 @@ button:hover{
     height: 1.7em;
     text-align: center;
 }
+.date{
+    border: 2px white solid;
+    border-radius: 20px;
+    background-color: rgb(4, 4, 90);
+    text-align: center;
+   width: 30%;
+   color: white;
+   font-size: 30%;
+   padding: 10px;
+}

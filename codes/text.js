@@ -202,4 +202,78 @@ console.log(myCar2.drive(4 ,4));
 //THIS KEYWORLD
 //console.log(this); 
 //u can also do the (test function)
+//we use the THIS keyword instread of writting an array overe and over again
 
+
+//CONSTRUCTOR FUNCTIONS
+var Man =function(maxspeed,name){
+
+    this.maxSpeed=maxspeed;
+    this.name=name;
+    this.speedcheck=function(speed,time){
+        console.log(speed * time);
+    };
+    this.namecheck=function(){
+        console.log("driver name is " + this.name );
+    };
+
+}
+
+var myMan= new Man(70,"dings");
+var myMan1= new Man(40,"hills");
+var myMan2= new Man(50,"game");
+var myMan3= new Man(30,"game");
+
+myMan.namecheck();
+myMan.speedcheck(3,10);
+myMan3.namecheck();
+
+
+//THE DATE OBJECT
+var myDate= new Date();
+// document.write(myDate);
+var myPastDate= new Date(2002,5,4,10,30,02);
+console.log(myPastDate);
+
+console.log("the date is " + myDate.getTime());
+
+//THE DOM
+//DOCUMENT OBJECT MODEL
+    document.getElementsByClassName("address");
+    var myAdressDivs =document.getElementsByClassName("address");
+
+// var myH2= myAdressDivs[0].getElementsByTagName("h2");
+//now to change the ellements inside u have to tag it and call it out with innerhtml and by adding equals to u can change everything on the page
+// document.getElementById("page-title")
+
+
+// var link =document.getElementById("page-title");
+
+// link
+// <a href=​"a" id=​"page-title">​link 0​</a>​ when u call out the link
+// link.getAttribute("href");the get attribute to call out the head property
+// 'a'
+// link.getAttribute("id");
+// 'page-title'
+// link.setAttribute("id","page-new"); to change the attribute name or class
+// link.setAttribute("class","hello"); and u can also use it to set new atribute
+
+
+//how to edit css with java script
+    // var page = document.getElementById("page-con");
+
+    // page.setAttribute("style","position: relative;");
+
+    // page.setAttribute("style","position: relative; left: 10px;");
+
+    // page.style.left="30px"; short from
+
+//creating a new element
+      // var newA =document.createElement("a");
+      // var menu=document.getElementsByClassName("a")[0];
+      // menu.appendChild(newA);
+      // newA.innerHTML=("nice");
+      // and.insertBefore is to place the element first
+
+//Removing elements from the DOM 
+    
