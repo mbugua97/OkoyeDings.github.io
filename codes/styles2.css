@@ -38,8 +38,9 @@
 }
 body{
   background-image: url(image/6233787.jpg);
-  /* background-size: 100% 100%; */
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
  
 }
 .main-con2{
@@ -81,12 +82,18 @@ body{
   text-align: right;
   padding: 0.5em;
   color: white;
-  background-color: rgba(34, 32, 32, 0.266);
+  background-color: rgb(1, 2, 32);
   border-radius: 10px;
+  border-top: white 3px solid;
+  border-bottom: white 3px solid;
+  z-index: 2;
+  top: 3px;
+  position: sticky;
 }
 .flex a{
   color: white;
   margin: 5px;
+  margin-top: 5px;
 }
 .flex a:hover{
   text-decoration: none;
@@ -224,6 +231,10 @@ body{
   transform:scale(1.6,1.6) ;
   cursor: pointer;
   color: #24b01a;
+}
+.comments{
+  position: relative;
+  justify-content: left;
 }
 .about1{
   flex-basis: 100%;

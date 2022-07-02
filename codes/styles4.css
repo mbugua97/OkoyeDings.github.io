@@ -17,7 +17,13 @@ body{
     text-align: right;
     padding: 0.5em;
     color: white;
-    background-color: rgb(34, 32, 32);
+    background-color: rgb(1, 2, 32);
+  border-radius: 10px;
+  border-top: white 3px solid;
+  border-bottom: white 3px solid;
+  z-index: 2;
+  top: 2px;
+  position: sticky;
     border-radius: 10px;
 }
 .flex a{
