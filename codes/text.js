@@ -276,4 +276,3 @@ console.log("the date is " + myDate.getTime());
       // and.insertBefore is to place the element first
 
 //Removing elements from the DOM 
-    

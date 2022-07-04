@@ -38,10 +38,7 @@
 }
 body{
   background-image: url(image/6233787.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
- 
+    background-repeat: no-repeat;
 }
 .main-con2{
   color: white;

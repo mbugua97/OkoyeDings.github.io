@@ -31,8 +31,7 @@
     <a href="nija">link 4</a>
     <a href="man">link 5</a>
   </div>
-   
-    <h2 id="page-con">we are working on the jave script on my first day</h2>
+    <h2 id="page-con">click to know your date and time zone</h2>
    <script>
     var page = document.getElementById("page-con");
       page.setAttribute("style","position: relative;");
@@ -40,6 +39,28 @@
       page.style.backgroundColor="black";
       page.style.borderRadius="20px";
       page.style.padding="20px";
+
+      page.onclick=function(){
+        page.innerHTML= Date();
+      };
+
+      page.onmouseover=function(){
+        page.style.color="white"
+       page.style.backgroundColor="rgb(4, 4, 90)";
+      };
+
+      page.onmouseout=function(){
+        page.style.color="red"
+        page.style.backgroundColor="black";
+      };
    </script>
+    <div id="main">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
 </body>
 </html>
