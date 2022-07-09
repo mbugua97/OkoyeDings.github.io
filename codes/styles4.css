@@ -13,6 +13,46 @@ body{
 .head a:hover{
     color: red;
 }
+#menu{
+    max-height: 1px;
+    max-width: 20px;
+    color: aliceblue;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
+
+  /* set transition up */
+  -webkit-transition: max-height 0.7s;
+  -moz-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+  -webkit-transition: max-width 0.7s;
+  -moz-transition: max-width 0.7s;
+  transition: max-width 0.7s;
+}
+#menu ul li{
+    padding: 2px;
+    list-style-type: none;
+
+}
+#menu.open{
+    max-height: 100px;
+    max-width: 100%;
+  
+    /* set transition up */
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    -webkit-transition: max-width 0.7s;
+  -moz-transition: max-width 0.7s;
+  transition: max-width 0.7s;
+  }  
+#click{
+    color: aliceblue;
+    cursor: pointer;
+}
+#click:hover{
+    color: red;
+}
 .flex{
     text-align: right;
     padding: 0.5em;

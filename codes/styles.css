@@ -66,6 +66,22 @@ button:hover{
    color: rgb(15, 147, 140);
    font-size: 15px;
    justify-content: center;
+   width: 90%;
+   /* margin-left: 40px; */
+}
+.sponsor li{
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+@media (max-width: 500px){
+    .sponsor{
+    display:flex;
+   margin: 1px auto;
+   color: rgb(147, 15, 15);
+   font-size: 15px;
+   justify-content: center;
    width: 50%;
    margin-left: 40px;
 }
@@ -74,4 +90,5 @@ button:hover{
     text-align: center;
     justify-content: space-between;
     list-style-type: none;
+}
 }

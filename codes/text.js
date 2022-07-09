@@ -276,3 +276,27 @@ console.log("the date is " + myDate.getTime());
       // and.insertBefore is to place the element first
 
 //Removing elements from the DOM 
+
+
+//drop down 
+var content= document.getElementById("content");
+var button = document.getElementById("show_more");
+
+button.onclick=function(){
+  
+    if(content.className=="open"){
+      //shrink box
+      content.className="";
+      button.innerHTML="Show more";
+
+    }else{
+       //expand the box
+        content.className="open";
+        button.innerHTML="Show less";
+
+    }
+
+}
+ 
+
+ 

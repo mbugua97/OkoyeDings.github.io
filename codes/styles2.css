@@ -1,3 +1,8 @@
+body{
+  background-image: url(image/6233787.jpg);
+    background-repeat: no-repeat;
+}
+
 .head{
   color: aliceblue;
   background-color: rgb(38, 37, 37);
@@ -36,10 +41,7 @@
   right: 1.4em;
   
 }
-body{
-  background-image: url(image/6233787.jpg);
-    background-repeat: no-repeat;
-}
+
 .main-con2{
   color: white;
   border-radius: 20px;
@@ -236,21 +238,22 @@ body{
 .about1{
   flex-basis: 100%;
   padding:0 2em;
-  @media (min-width: 40rem;) {
-   flex: basis 50%;
-  }
 }
 .about ul{
-  width: 50%;
+  width: 90%;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 .about ul li a {
-  display: flex;
   align-items: center;
   color: white;
   padding: 10px;
   text-align: center;
   text-decoration: none;
+}
+.about ul li{
+  list-style-type: none;
 }
 .about ul li :hover{
   color: red;
@@ -258,4 +261,25 @@ body{
 .about ul li a b {
   position: relative;
   right: -10px;
+}
+hr{
+  width: 90%;
+}
+@media (max-width: 500px){
+  .about ul{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+  }
+}
+@media (orientation: landscape) {
+  body{
+    background-image: url(image/6233787.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .write-up{
+    color: black;
+  }
 }
