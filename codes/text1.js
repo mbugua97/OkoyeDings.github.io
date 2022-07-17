@@ -1,14 +1,14 @@
-var menu= document.getElementById("menu");
-var click= document.getElementById("click");
+//jqurey
+var myForms= document.forms.login;
+var message=document.getElementById("message");
 
-click.onclick=function(){
+myForms.onsubmit= function(){
 
-    if(menu.className=="open"){
-        menu.className="";
-        
+    if(myForms.username.value==="okoyedindu@gmail.com"){ 
     }else{
-        menu.className="open";
+        message.innerHTML="This email or password is invalid";
+        message.style.color="red";
+        return false;   
+     }
+};
 
-    }
-
-}

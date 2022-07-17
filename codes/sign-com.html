@@ -8,16 +8,33 @@
     <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css">
     <title>welcome</title>
 </head>
-<body class="body-com">
-   <div class="com-si">
-        <i class="fas fa-check-circle fa-10x"></i> 
+<body>
+   <div id="comsi">
+       <div class="load">
+          <div class="loading"></div>
+       </div>
         <br>
-        <br>
-        <b>Sign up complete</b>
-        <br>
-        <b>Pls return to the <a href="index.html">Login page</a></b>
-        <br>
+        <h2>Loading....</h2>
         <br>
    </div>
+   <div id="comsi2">
+      <p>bla bla bla</p>
+      <p>bla bla bla</p>
+      <p>bla bla bla</p>
+      <p>bla bla bla</p>
+      <p>grab me</p>
+   </div>
 </body>
+<script src="jquery-3.6.0.js"></script>
+ <script>
+ // loding page
+   var com=document.getElementById("comsi");
+   
+   function showMessage(){
+    
+       com.innerHTML=" <i class='fas fa-check-circle fa-10x'></i> <br> <h2>Done</h2> <h3>Please return back to <a href='index.html'>Login page</a> "
+       
+   }
+   setTimeout(showMessage ,5000);
+   </script> 
 </html>

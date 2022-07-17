@@ -1,6 +1,6 @@
 body{
   background-image: url(image/6233787.jpg);
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 .head{
@@ -103,23 +103,13 @@ body{
   margin-left: 5px;
   margin-right: 5px;
 }
-.sub-con{
-  background-color: rgba(88, 85, 85, 0.338);
-  /* text-align: center; */
-  border-radius: 20px;
-  width: 97%;
-  padding: 5px;
-  position: relative;
-  text-align: center;
-  margin: 1px auto;
-}
+
 .sub-con-b{
   /* background-color: rgba(88, 85, 85, 0.336); */
   text-align: center;
-  margin: 1px auto;
+  margin: 0px auto;
   border-radius: 20px;
   width: 97%;
-  padding: 20px;
   position: relative;
 }
 .fa-home {
@@ -128,56 +118,7 @@ body{
   padding-bottom: 0.5em;
 }
 
-.acc-log{
-  display: flex;
-  padding: 2px;
-  justify-content: space-around;
-  border-radius: 20px;
-}
-.acc-log-a{
-  border: solid white 1px;
-  border-radius: 20px;
-  padding: 2px;
-  background-image: url(image/7794856.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  width: 30%;
-}
-.acc-log-b{
-  border: solid white 1px;
-  border-radius: 20px;
-  padding: 2px;
-  background-image: url(image/7794856.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-color: #34181a44;
-  width: 30%;
-}
-.acc-log-c{
-  border: solid white 1px;
-  background-image: url(image/7794856.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  border-radius: 20px;
-  padding: 2px;
-  width: 30%;
-}
-.acc-log-a h3, .acc-log-b h3, .acc-log-c h3{
-  text-align: left;
-  padding-left: 7px;
-  font-size: 15px;
-}
-.acc-log-a h2, .acc-log-b h2, .acc-log-c h2{
-  font-size: 20px;
-  color: #21f321;
-}
-.fa-download{
-  color: white;
-  animation-name: move;
-  animation-duration:15s;
-  animation-iteration-count: infinite;
-  
-}
+
 .home-feed {
   background-color: rgba(128, 128, 128, 0.303);
   border-radius: 20px;
@@ -227,9 +168,8 @@ body{
   background-color: rgba(128, 128, 128, 0.385);
 }
 .like b:hover{
-  transform:scale(1.6,1.6) ;
+  transform:scale(1.5,1.4) ;
   cursor: pointer;
-  color: #24b01a;
 }
 .comments{
   position: relative;
@@ -269,7 +209,6 @@ hr{
   .about ul{
     width: 50%;
     text-align: center;
-    display: inline-block;
   }
 }
 @media (orientation: landscape) {

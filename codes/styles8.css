@@ -75,47 +75,30 @@
     border-radius: 50%;
     }
 
-/* drop down */
-#content{
-  border-radius: 10px;
-  width: 70%;
-  background-color: #fff;
-  padding: 20px;
-  padding-top: 0;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  color: #444;
-  margin: 0 auto;
-
-  max-height: 170px;
-  overflow: hidden;
-
-  /* set transition up */
-  -webkit-transition: max-height 0.7s;
-  -moz-transition: max-height 0.7s;
-  transition: max-height 0.7s;
-}
-
-#content.open{
-  max-height: 1100px;
-
-  /* set transition up */
-  -webkit-transition: max-height 0.7s;
-  -moz-transition: max-height 0.7s;
-  transition: max-height 0.7s;
-}
-
-#show_more{
-  background-color: blue;
+.ava{
+  display: flex;
   color: aliceblue;
-  display: block;
-  width: 140px;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 10px;
-  text-align: center;
-  margin: 10px auto;
-  cursor: pointer;
-  border-radius: 10px;
+  margin: 0 auto;
+  align-items:center;
 }
+blockquote{
+  display: none;
+  
+}
+blockquote:first-of-type{
+  display: block;
+  display: flex;
+}
+blockquote:first-of-type h3{
+  margin: 20px;
+}
+@media(min-width: 1000px){
+  .ava img{
+    height: 10%;
+    width: 10%;
+  }
+  blockquote{
+    font-size: 30px;
+  }
 
+}

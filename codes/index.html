@@ -15,32 +15,40 @@
         <div class="imgcontainer">
             <img src="image/g.jpg" alt="Avatar" class="avatar" height="150em" >
         </div>
-        <form action="home page.html">  
-        <div class="main-page">
-                <label for="username">
-                <!-- <b>USERNAME<b> -->
-                </label>
-                <br>
-            <input type="email" placeholder="Enter username" name="username"required class="logfrom" autocomplete="email">
-            <br>
-                <label for="password">
-                <!-- <b>PASSWORD</b> -->
-                </label>
-                <br>
-            <input id="password" type="password" placeholder="Enter password" name="password"required class="logfrom" minlength="4" maxlength="9" autocomplete="current-password">
-            <br>
-            <button type="submit">
-              <!-- <a href="home page.html">Login</a> -->
-              login
-            </button>
-            <div class="sign-up"><a href="sign-up.html">Sign up</a></div>
-            <br>
-            <label>
-                <input type="checkbox" check="check" name="remember">
-                Remember me
-            </label>
-       </div>
+        <form action="home page.html" name="login"> 
+          <label for="username">
+              
+          </label>
+          <br>
+      <input type="email" placeholder="Enter username" name="username"required class="logfrom" autocomplete="email">
+      <br>
+          <label for="password">
+
+          </label>
+          <br>
+      <input id="password" type="password" placeholder="Enter password" name="password"required class="logfrom" minlength="4" maxlength="9" autocomplete="current-password">
+      
+      <br>
+      <div id="message">
+
+      </div>
+
+      <button type="submit" id="submit">
+        login
+      </button>
+
+      <div class="sign-up"><a href="sign-up.html">Sign up</a></div>
+      
+      <br>
+
+      <label>
+          <input type="checkbox" check="check" name="remember">
+          Remember me
+      </label>
+
+
     </form>
+    
   </div>
   <br>
   <div class="about">
@@ -85,5 +93,8 @@
            </li>
        </ul>
     </div>
+<script src="jquery-3.6.0.js"></script>
+ <script src="text1.js"></script> 
 </body>
+
 </html>

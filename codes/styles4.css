@@ -25,9 +25,9 @@ body{
   -webkit-transition: max-height 0.7s;
   -moz-transition: max-height 0.7s;
   transition: max-height 0.7s;
-  -webkit-transition: max-width 0.7s;
-  -moz-transition: max-width 0.7s;
-  transition: max-width 0.7s;
+  -webkit-transition: max-width 1s;
+  -moz-transition: max-width 1s;
+  transition: max-width 1s;
 }
 #menu ul li{
     padding: 2px;
@@ -84,62 +84,45 @@ body{
     display:block;
 }
 
-.fa-amazon-pay{
-    color: rgb(223, 86, 0);
-}
-.noti{
-    align-items: center;
-}
-.fa-amazon-pay b{
-    color: black;
-    font-size: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.noti{
-    /* border: solid white 3px; */
-    display:block;
-    text-align: center;
-    width: 99%;
-    margin: 10px auto;
-    border-radius: 20px;
-    background-color: rgba(74, 74, 74, 0.348);
-}
-.noti1{
-    /* display: flex; */
-    align-items: center;
-    margin: 5px auto;
-    padding-left: 10px;
-    border-radius: 20px;
-    border: solid white 2px;
-    width: 90%;
-}
-.noti1:hover{
-    transform: scale(1.04,1.04);
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.636);
-    color: white;
-}
-.fa-check-circle{
-    color: #03a903;
-}
-.fa-apple-pay{
-  color: yellow;
-}
-.fa-facebook{
-    color: blue;
-}
-.fa-paypal{
-    color: orangered;
-}
 
 /*sing complete page*/
 .body-com{
     background-color: white;
 }
-.com-si{
+#comsi{
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+
+    -webkit-transition:opacity 0.7s;
+  -moz-transition:opacity 0.7s;
+  transition:opacity 0.7s;
+}
+
+#comsi .show{
+    
+
+    -webkit-transition:opacity 0.7s;
+    -moz-transition:opacity 0.7s;
+    transition:opacity 0.7s;
+}
+#comsi h2{
+    color: aliceblue;
+}
+.load{
+    border-radius: 50%;
+   border: #21f321 dotted 5px;
+    animation: loading 2s infinite ease-in;
+}
+.loading{
+    padding: 50px;
+}
+@keyframes loading{
+    0%{
+        transform: rotate(-360deg);
+    }
+
 }
