@@ -1,4 +1,3 @@
-
     var menu= document.getElementById("menu");
     var click= document.getElementById("click");
     click.onclick = function(){
@@ -39,8 +38,10 @@
      
     }
     var qTimer = setInterval(changeQ , 3000);  
+   
 
-    //slide down
+
+//slide down
 var item =$(".acc-log-a");
 item.on("click", function(){
 
@@ -59,3 +60,32 @@ item.on("click", function(){
     $(this).find("p").slideToggle(500);
 
 })
+
+//book list
+const bookList= document.querySelector('#booklist');
+const add= document.querySelector('#add');
+const unorder= document.querySelector('ul');
+
+add.addEventListener("click", function(){
+
+    const listItem= document.createElement('li');
+    const remove= document.createElement('input');
+
+    listItem.textContent= `${bookList.value}`;
+    listItem.className="name";
+
+    remove.type= 'button';
+    remove.value = 'Remove';
+    remove.className="delete";
+
+    listItem.appendChild(remove);
+    unorder.appendChild(listItem);
+   
+    bookList.value= '';
+
+    remove.addEventListener('click', () => {
+    unorder.removeChild(listItem);
+    });
+    
+})
+

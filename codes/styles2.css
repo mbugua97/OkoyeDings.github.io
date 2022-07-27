@@ -117,15 +117,12 @@ body{
   border-bottom: solid 2px rgb(34, 245, 34);
   padding-bottom: 0.5em;
 }
-
-
 .home-feed {
   background-color: rgba(128, 128, 128, 0.303);
   border-radius: 20px;
 }
 .fr-feed{
   display: flex;
-  padding: 10px;
   flex-wrap: nowrap;
   align-items: center;
 }
@@ -154,11 +151,16 @@ body{
   text-align: left;
   padding: 20px;
 }
+.post-img{
+  text-align: center;
+}
 .post img {
   position: relative;
   text-align: center;
   background-color: red;
   width: 100%;
+  max-width: 700px;
+
 }
 .like{
   display: flex;

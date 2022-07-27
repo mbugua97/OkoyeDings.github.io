@@ -38,16 +38,20 @@
     padding: 20px;
     border-left: 5px solid black;
     margin: 20px 10px;
+    border-radius: 5px;
 }
 .list-con-li ul li:hover{
     border-color: rgb(16, 16, 231);
 }
 .delete{
     float: right;
-    background-color: blue;
+    background-color: black;
     color: aliceblue;
     padding: 6px;
     border-radius: 4px;
+}
+.delete:hover{
+    background-color: blue;
 }
 #add-book{
     margin: 30px;
