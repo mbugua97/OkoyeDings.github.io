@@ -65,8 +65,17 @@ item.on("click", function(){
 const bookList= document.querySelector('#booklist');
 const add= document.querySelector('#add');
 const unorder= document.querySelector('ul');
+const message=document.querySelector('.message');
 
 add.addEventListener("click", function(){
+
+    if(bookList.value===""){
+        message.innerHTML="Please fill add a book";
+        message.style.color="red";
+        return false;   
+    }else{
+        message.innerHTML="";
+    }
 
     const listItem= document.createElement('li');
     const remove= document.createElement('input');
@@ -87,5 +96,5 @@ add.addEventListener("click", function(){
     unorder.removeChild(listItem);
     });
     
-})
+});
 

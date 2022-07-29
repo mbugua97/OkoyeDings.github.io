@@ -1,0 +1,79 @@
+body{
+ background-color:rgb(207, 207, 207);
+}
+/* nav */
+header{
+   background-color: rgb(12, 0, 42);
+   color: aliceblue;
+   border-radius: 5px;
+}
+header ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: space-between;
+}
+header li{
+    margin: 10px;
+}
+
+
+
+/* nav bar  */
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+nav ul li{
+    margin: 10px;
+}
+
+
+
+/* discount and advertisment */
+.ads{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    color: black;
+}
+.ads.fa-shirt{
+    color: rgb(6, 6, 6);
+}
+.dis{
+    display: block ;
+    text-align: center;
+    color: black;
+}
+.dis p:last-child{
+    text-decoration: line-through;
+    color: red;
+}
+
+/* animation to the add */
+blockquote{
+    display: none;
+}
+blockquote:first-of-type{
+    display:block;
+}
+
+
+
+/* android phones */
+@media (max-width: 500px){
+   .search{
+    display: none;
+   }
+   #title{
+    margin: 0 auto;
+    padding: 10px;
+   }
+   #cart{
+    display: none;
+   }
+  }
